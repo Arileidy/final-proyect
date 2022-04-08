@@ -10,12 +10,12 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background: #0c0b09;
+  background: pink;
   color: #fff;
 }
 
 a {
-  color: #cda45e;
+  color: #aaaaaa;
   text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #1a1814;
+  border: 6px solid palevioletred;
   border-top-color: #cda45e;
   border-bottom-color: #cda45e;
   border-radius: 50%;
@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/") top center;
   background-size: cover;
   position: relative;
   padding: 0;
