@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .back-to-top i {
   font-size: 28px;
-  color: #cda45e;
+  color: palevioletred;
   line-height: 0;
 }
 .back-to-top:hover {
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 .book-a-table-btn {
   margin: 0 0 0 15px;
-  border: 2px solid #cda45e;
+  border: 2px solid #18d26e;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -205,7 +205,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
 }
 .book-a-table-btn:hover {
-  background: #cda45e;
+  background: #18d26e;
   color: #fff;
 }
 @media (max-width: 992px) {
@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/") top center;
+  background-image: url("imagenes/foto.png");
   background-size: cover;
   position: relative;
   padding: 0;
@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 #hero h1 span {
-  color: #cda45e;
+  color: #18d26e;
 }
 #hero h2 {
   color: #eee;
@@ -670,14 +670,13 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center;
+  background: url("imagenes/bizcoho5.jpg") center center;
   background-size: cover;
   position: relative;
   padding: 80px 0;
 }
 .about:before {
   content: "";
-  background: rgba(0, 0, 0, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -701,9 +700,7 @@ section {
   height: 60px;
   z-index: 1;
   content: "";
-  border-left: 5px solid #cda45e;
-  border-top: 5px solid #cda45e;
-  transition: 0.5s;
+ 
 }
 .about .about-img::after {
   position: absolute;
@@ -713,9 +710,7 @@ section {
   height: 60px;
   z-index: 2;
   content: "";
-  border-right: 5px solid #cda45e;
-  border-bottom: 5px solid #cda45e;
-  transition: 0.5s;
+ 
 }
 .about .about-img:hover {
   transform: scale(1.03);
@@ -814,7 +809,7 @@ section {
   font-family: "Playfair Display", serif;
 }
 .menu #menu-flters li:hover, .menu #menu-flters li.filter-active {
-  color: #cda45e;
+  color: #ed3c0d;
 }
 .menu #menu-flters li:last-child {
   margin-right: 0;
@@ -826,7 +821,7 @@ section {
   width: 70px;
   border-radius: 50%;
   float: left;
-  border: 5px solid rgba(255, 255, 255, 0.2);
+  border: 5px solid rgba(238, 130,238);
 }
 .menu .menu-content {
   margin-left: 85px;
@@ -855,7 +850,7 @@ section {
   transition: 0.3s;
 }
 .menu .menu-content a:hover {
-  color: #cda45e;
+  color: #ed3c0d;
 }
 .menu .menu-content span {
   background: #1a1814;
@@ -863,7 +858,7 @@ section {
   z-index: 3;
   padding: 0 10px;
   font-weight: 600;
-  color: #cda45e;
+  color: #ed3c0d
 }
 .menu .menu-ingredients {
   margin-left: 85px;
@@ -878,6 +873,8 @@ section {
 --------------------------------------------------------------*/
 .specials {
   overflow: hidden;
+  background-size: contain;
+ 
 }
 .specials .nav-tabs {
   border: 0;
@@ -890,18 +887,19 @@ section {
   border-radius: 0;
   border-right: 2px solid #cda45e;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 25px;
+
 }
 .specials .nav-link:hover {
-  color: #cda45e;
+  color: purple;
 }
 .specials .nav-link.active {
   color: #1a1814;
-  background: #cda45e;
+  background: pink;
   border-color: #cda45e;
 }
 .specials .nav-link:hover {
-  border-color: #cda45e;
+  border-color: paleturquoise;
 }
 .specials .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
